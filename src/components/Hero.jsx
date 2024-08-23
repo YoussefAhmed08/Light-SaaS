@@ -49,7 +49,7 @@ const Hero = () => {
               style={{ y: moveWhileScroll }}
               src={cylinder}
               alt="cylinder"
-              className="absolute -left-28 top-32 hidden md:block"
+              className="absolute -left-32 hidden md:block"
               width={200}
               height={200}
             />
@@ -71,7 +71,7 @@ const Hero = () => {
               style={{ y: moveWhileScroll }}
               src={noodle}
               alt="noodle"
-              className="absolute top-[90%] -right-24 hidden md:block z-100"
+              className="absolute top-[70%] -right-24 hidden md:block z-100"
               width={200}
               height={200}
               initial={{ y: 0 }}
