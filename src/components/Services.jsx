@@ -23,7 +23,7 @@ const Services = () => {
     <div className="flex-col flex items-center justify-center gap-10 pt-32 bg-gradient-to-t from-[#D3DDFF] to-[#fff] pb-20 py-5 md:py-10">
       <div className="container mx-auto">
         <div className="flex flex-col items-center gap-5">
-          <span className="border border-slate-400 rounded-lg px-3 py-1 text-sm tracking-tight w-[10rem]">
+          <span className="border border-slate-400 rounded-lg px-3 py-1 text-sm tracking-tight w-[10.5rem]">
             Boost your productivity
           </span>
           <div className="font-bold text-5xl text-black tracking-tight text-transparent bg-clip-text bg-gradient-to-b from-black to-[#001e80] text-center">
