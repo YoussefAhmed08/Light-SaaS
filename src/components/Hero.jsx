@@ -19,7 +19,7 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row items-center ml-5 md:ml-0 md:gap-28 lg:gap-56 py-12 mt-16">
           {/* LEFT SECTION */}
           <div className="flex items-start justify-center flex-col gap-5 sm:ml-10 xl:ml-10">
-            <span className="border border-slate-400 rounded-lg px-3 py-1 text-sm tracking-tight">
+            <span className="border border-slate-400 rounded-lg px-3 py-1 text-sm tracking-tight w-fit">
               Version 2.0 is here
             </span>
             <h3 className="font-bold text-5xl text-black tracking-tight">
