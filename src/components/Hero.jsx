@@ -11,7 +11,7 @@ const Hero = () => {
     target: targetRef,
     offset: ["start end", "end start"],
   });
-  const moveWhileScroll = useTransform(scrollYProgress, [0, 1], [150, -150]);
+  const moveWhileScroll = useTransform(scrollYProgress, [0, 1], [180, -50]);
 
   return (
     <section className="relative z-50 bg-gradient-to-t from-[#183ec2] to-[#fff]">
@@ -49,7 +49,7 @@ const Hero = () => {
               style={{ y: moveWhileScroll }}
               src={cylinder}
               alt="cylinder"
-              className="absolute -left-32 hidden md:block"
+              className="absolute -left-36 hidden md:block"
               width={200}
               height={200}
             />

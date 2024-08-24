@@ -15,8 +15,17 @@ const Services = () => {
     target: targetRef,
     offset: ["start end", "end 100%"],
   });
-  const opacity = useTransform(scrollYProgress, [0, 1], [0.5, 1]);
-  const rotateX = useTransform(scrollYProgress, [0, 1], ["30deg", "0deg"]);
+  const isMobile = window.innerWidth < 768;
+  const opacity = useTransform(
+    scrollYProgress,
+    [0, 1],
+    isMobile ? [0.7, 1] : [0.5, 1]
+  );
+  const rotateX = useTransform(
+    scrollYProgress,
+    [0, 1],
+    isMobile ? ["15deg", "0deg"] : ["15deg", "0deg"]
+  );
   const moveWhileScroll = useTransform(scrollYProgress, [0, 1], [150, -200]);
 
   return (
@@ -43,7 +52,7 @@ const Services = () => {
             ref={targetRef}
             src={pyramid}
             alt="pyramid"
-            className="absolute -right-28 z-10 hidden md:block"
+            className="absolute right-0 z-10 hidden md:block"
             width={300}
             height={300}
             style={{ y: moveWhileScroll }}
@@ -65,7 +74,7 @@ const Services = () => {
             height={300}
             style={{ y: moveWhileScroll }}
             initial={{ y: 0 }}
-            className="absolute -left-[12rem] -bottom-36 z-10 hidden md:block"
+            className="absolute -left-[3rem] -bottom-36 z-10 hidden md:block"
           />
         </div>
         <div className="flex items-center justify-center flex-wrap gap-5 sm:flex-col md:flex-row">
@@ -77,7 +86,7 @@ const Services = () => {
           <Benefits
             icon={<GoGoal size={26} />}
             title="Goal setting and tracking"
-            description={`Set and track your goals with manageable task breakdowns.`}
+            description="Set and track your goals with manageable task breakdowns."
           />
           <Benefits
             icon={<MdLockOutline size={26} />}
