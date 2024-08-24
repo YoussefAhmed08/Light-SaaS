@@ -24,7 +24,7 @@ const logos = [
 
 const Companies = () => {
   return (
-    <div className="flex items-center justify-center overflow-hidden [mask-image:linear-gradient(to_right,transparent,black,transparent)] z-50">
+    <div className="flex items-center justify-center overflow-hidden [mask-image:linear-gradient(to_right,transparent,black,transparent)] z-50 w-max mx-auto">
       <div className="container mx-auto">
         <div className="overflow-hidden py-10 flex items-center gap-14 pr-14 flex-none">
           <motion.div

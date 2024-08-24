@@ -10,7 +10,7 @@ const Management = () => {
     <section className="flex-col flex items-center justify-center gap-10 pt-56 bg-gradient-to-t from-[#D3DDFF] to-[#fff] pb-20 py-20">
       <div className="container mx-auto">
         <div className="flex items-center justify-center flex-col gap-5">
-          <span className="border border-slate-400 rounded-lg px-3 py-1 text-sm tracking-tight w-[9.2rem]">
+          <span className="border border-slate-400 rounded-lg px-3 py-1 text-sm tracking-tight w-max">
             Everything you need
           </span>
           <div className="font-bold text-5xl text-black tracking-tight text-center px-1">
@@ -25,7 +25,7 @@ const Management = () => {
             <br /> see your progress simply and quickly.
           </div>
         </div>
-        <div className="flex items-center justify-center gap-5 flex-col md:flex-row mt-10 w-fit mx-5">
+        <div className="flex items-center justify-center gap-5 flex-col md:flex-row mt-10  mx-5">
           <div className="bg-white/70 drop-shadow-2xl rounded-lg p-10 flex items-center justify-center flex-col gap-3">
             <motion.div
               animate={{ y: [0, 30, 0] }}

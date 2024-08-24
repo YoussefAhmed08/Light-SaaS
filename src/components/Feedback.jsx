@@ -11,7 +11,7 @@ const Feedback = () => {
   return (
     <section className="flex-col flex items-center justify-center gap-10 pt-56 pb-20 py-20">
       <div className="flex items-center justify-center flex-col gap-5">
-        <span className="border border-slate-400 rounded-lg px-3 py-1 text-sm tracking-tight w-[6.2rem]">
+        <span className="border border-slate-400 rounded-lg px-3 py-1 text-sm tracking-tight w-max">
           Testimonials
         </span>
         <p className="font-bold text-5xl text-black tracking-tight text-center text-transparent bg-clip-text bg-gradient-to-b from-black to-[#001e80]">
@@ -28,7 +28,7 @@ const Feedback = () => {
           initial={{ y: 0 }}
           animate={{ y: "-50%" }}
           transition={{
-            duration: 15,
+            duration: 10,
             ease: "easeInOut",
             repeat: Infinity,
             repeatType: "loop",
@@ -61,7 +61,7 @@ const Feedback = () => {
           <FeedbackElement
             img={avatar2}
             name="Josh Smith"
-            userName="jjsmith"
+            userName="jsmith"
             text="Our team's productivity has skyrocketed since we started using this tool."
           />
           <FeedbackElement
@@ -76,7 +76,7 @@ const Feedback = () => {
           initial={{ y: 0 }}
           animate={{ y: "-50%" }}
           transition={{
-            duration: 18,
+            duration: 12,
             ease: "easeInOut",
             repeat: Infinity,
             repeatType: "loop",
@@ -124,7 +124,7 @@ const Feedback = () => {
           initial={{ y: 0 }}
           animate={{ y: "-50%" }}
           transition={{
-            duration: 20,
+            duration: 14,
             ease: "easeInOut",
             repeat: Infinity,
             repeatType: "loop",
@@ -133,7 +133,7 @@ const Feedback = () => {
           <FeedbackElement
             img={avatar2}
             name="Josh Smith"
-            userName="jjsmith"
+            userName="jsmith"
             text="Our team's productivity has skyrocketed since we started using this tool. "
           />
           <FeedbackElement
@@ -151,7 +151,7 @@ const Feedback = () => {
           <FeedbackElement
             img={avatar2}
             name="Josh Smith"
-            userName="jjsmith"
+            userName="jsmith"
             text="Our team's productivity has skyrocketed since we started using this tool. "
           />
           <FeedbackElement
