@@ -6,7 +6,7 @@ const Pricing = () => {
   return (
     <section className="flex-col flex items-center justify-center gap-10 pt-56 pb-20 py-20">
       <div className="flex items-center justify-center flex-col gap-5 px-2">
-        <span className="border border-slate-400 rounded-lg px-3 py-1 text-sm tracking-tight w-max">
+        <span className="border border-slate-400 rounded-lg px-3 py-1 text-sm tracking-tight w-[8.5rem] text-center">
           Pay less money
         </span>
         <p className="font-bold text-5xl text-black tracking-tight text-center">
