@@ -43,7 +43,7 @@ const Hero = () => {
             </div>
           </div>
           {/* RIGHT SECTION */}
-          <div className="relative mr-10 w-96 sm:mr-0 md:w-max">
+          <div className="relative mr-10 w-80 sm:mr-0 md:w-max">
             <motion.img
               ref={targetRef}
               style={{ y: moveWhileScroll }}
