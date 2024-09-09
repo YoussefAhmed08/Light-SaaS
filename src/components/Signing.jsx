@@ -10,7 +10,7 @@ const Signing = () => {
         <p className="font-bold text-4xl text-black tracking-tight text-center text-transparent bg-clip-text bg-gradient-to-b from-black to-[#001e80]">
           Sign up for free today
         </p>
-        <p className="text-xl text-black text-center">
+        <p className="text-xl text-black text-center mx-8">
           Celebrate the joy of accomplishment with an app
           <br /> designed to track your progress and motivate your
           <br /> efforts.

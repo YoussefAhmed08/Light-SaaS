@@ -28,7 +28,7 @@ const Hero = () => {
                 productivity
               </p>
             </h3>
-            <p className="text-xl text-black tracking-tight">
+            <p className="text-xl text-black tracking-tight mr-8">
               Celebrate the joy of accomplishment with an app <br /> designed to
               track your progress, motivate your efforts, <br /> and celebrate
               your successes.

@@ -29,7 +29,7 @@ const Pricing = () => {
           return (
             <div
               key={item.id}
-              className={`flex items-start justify-center flex-col gap-2 bg-black bg-${color} p-10 max-w-xs w-full rounded-3xl shadow-[0_7px_14px_#eaeaea]`}
+              className={`flex items-start justify-center flex-col gap-2 bg-${color} p-10 max-w-xs w-full rounded-3xl shadow-[0_9px_18px_#eaeaea]`}
             >
               <div className="flex items-center justify-evenly gap-36">
                 <p className={`text-${generalColor}/60 text-lg font-bold`}>
@@ -38,7 +38,7 @@ const Pricing = () => {
                 <motion.span
                   className={`${
                     isEven ? "hidden" : "block"
-                  } font-bold border border-slate-500 rounded-lg px-3 py-1 text-sm tracking-tight bg-[linear-gradient(to_right,#dd7ddf,#e1cd86,#bbcb92,#71c2ef,#3bffff,#dd7ddf,#e1cd86,#bbcb92,#71c2ef,#3bffff)] [background-size:200%] text-transparent bg-clip-text`}
+                  } font-semibold border border-slate-500 rounded-lg px-3 py-1 text-sm tracking-tight bg-[linear-gradient(to_right,#dd7ddf,#e1cd86,#bbcb92,#71c2ef,#3bffff,#dd7ddf,#e1cd86,#bbcb92,#71c2ef,#3bffff)] [background-size:200%] text-transparent bg-clip-text`}
                   animate={{ backgroundPosition: ["0% 50%", "100% 50%"] }}
                   transition={{
                     duration: 3,

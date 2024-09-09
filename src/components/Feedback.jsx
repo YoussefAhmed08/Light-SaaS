@@ -17,7 +17,7 @@ const Feedback = () => {
         <p className="font-bold text-4xl text-black tracking-tight text-center text-transparent bg-clip-text bg-gradient-to-b from-black to-[#001e80]">
           What our users say
         </p>
-        <p className="text-xl text-black text-center">
+        <p className="text-xl text-black text-center mx-8">
           From intuitive design to powerful features, our app has
           <br /> become an essential tool for users around the world.
         </p>

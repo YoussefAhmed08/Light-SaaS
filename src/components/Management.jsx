@@ -19,7 +19,7 @@ const Management = () => {
               management
             </p>
           </div>
-          <div className="text-xl text-black text-center">
+          <div className="text-xl text-black text-center mx-8">
             Enjoy customizable lists, team work tools, and smart
             <br /> tracking all in one place. Set tasks, get reminders, and
             <br /> see your progress simply and quickly.
