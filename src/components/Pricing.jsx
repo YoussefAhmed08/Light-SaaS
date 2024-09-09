@@ -21,7 +21,7 @@ const Pricing = () => {
           <br /> effortlessly.
         </p>
       </div>
-      <div className="flex flex-col lg:flex-row lg:items-end lg:justify-center gap-6 items-center mt-10 w-screen">
+      <div className="flex flex-col lg:flex-row lg:items-end lg:justify-center gap-8 items-center mt-10 w-screen">
         {pricing.map((item, index) => {
           const isEven = index % 2 === 0;
           const color = isEven ? "white" : "black";

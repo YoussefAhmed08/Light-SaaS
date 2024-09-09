@@ -47,7 +47,7 @@ const Services = () => {
             <br /> the set of free components for Framer.
           </p>
         </div>
-        <div className="perspective-1000 relative">
+        <div className="perspective-1000 relative mb-8">
           <motion.img
             ref={targetRef}
             src={pyramid}
@@ -77,7 +77,7 @@ const Services = () => {
             className="absolute -left-[3rem] -bottom-36 z-10 hidden md:block"
           />
         </div>
-        <div className="flex items-center justify-center flex-wrap gap-5 sm:flex-col md:flex-row">
+        <div className="flex items-center justify-center flex-wrap gap-8 sm:flex-col md:flex-row">
           <Benefits
             icon={<PiLeaf size={26} />}
             title="Integration ecosystem"
