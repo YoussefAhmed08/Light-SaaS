@@ -16,7 +16,7 @@ const Hero = () => {
   return (
     <section className="relative z-50 bg-gradient-to-t from-[#183ec2] to-[#fff]">
       <div className="container mx-auto">
-        <div className="flex flex-col md:flex-row items-center ml-5 md:ml-0 md:gap-28 lg:gap-56 py-14 mt-16">
+        <div className="flex flex-col md:flex-row items-center ml-5 md:ml-0 md:gap-28 lg:gap-96 py-14 mt-16">
           {/* LEFT SECTION */}
           <div className="flex items-start justify-center flex-col gap-5 xl:ml-10">
             <span className="border border-slate-400 rounded-lg px-3 py-1 text-sm tracking-tight w-[9rem] text-center">

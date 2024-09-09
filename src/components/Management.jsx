@@ -25,7 +25,7 @@ const Management = () => {
             <br /> see your progress simply and quickly.
           </div>
         </div>
-        <div className="flex items-center justify-center gap-5 flex-col md:flex-row mt-10  mx-5">
+        <div className="flex items-center justify-center gap-5 flex-col w-[24rem] md:w-[30rem] lg:w-max lg:flex-row mt-10  mx-auto">
           <div className="bg-white/70 drop-shadow-2xl rounded-lg p-10 flex items-center justify-center flex-col gap-3">
             <motion.div
               animate={{ y: [0, 30, 0] }}

@@ -64,7 +64,7 @@ const Services = () => {
             alt="productImage"
             width={1200}
             style={{ opacity: opacity, rotateX: rotateX }}
-            className="z-50 mx-auto w-[21rem] md:w-max"
+            className="z-50 mx-auto w-[21rem] sm:w-max"
           />
           <motion.img
             ref={targetRef}
