@@ -22,7 +22,7 @@ const Hero = () => {
             <span className="border border-slate-400 rounded-lg px-3 py-1 text-sm tracking-tight w-[9rem] text-center">
               Version 2.0 is here
             </span>
-            <h3 className="font-bold text-5xl text-black tracking-tight">
+            <h3 className="font-bold text-4xl text-black tracking-tight">
               Pathway to <br />{" "}
               <p className="text-transparent bg-clip-text bg-gradient-to-b from-black to-[#001e80]">
                 productivity

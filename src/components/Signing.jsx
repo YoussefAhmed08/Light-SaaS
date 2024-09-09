@@ -7,7 +7,7 @@ const Signing = () => {
     <section className="flex items-center justify-center bg-gradient-to-t from-[#D3DDFF] to-[#fff] pb-20 py-20">
       <img src={star} alt={star} className="hidden md:block" />
       <div className="flex items-center justify-center flex-col gap-5">
-        <p className="font-bold text-5xl text-black tracking-tight text-center text-transparent bg-clip-text bg-gradient-to-b from-black to-[#001e80]">
+        <p className="font-bold text-4xl text-black tracking-tight text-center text-transparent bg-clip-text bg-gradient-to-b from-black to-[#001e80]">
           Sign up for free today
         </p>
         <p className="text-xl text-black text-center">

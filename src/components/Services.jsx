@@ -35,9 +35,9 @@ const Services = () => {
           <span className="border border-slate-400 rounded-lg px-3 py-1 text-sm tracking-tight w-[10.5rem] text-center">
             Boost your productivity
           </span>
-          <div className="font-bold text-5xl text-black tracking-tight text-transparent bg-clip-text bg-gradient-to-b from-black to-[#001e80] text-center">
+          <div className="font-bold text-4xl text-black tracking-tight text-transparent bg-clip-text bg-gradient-to-b from-black to-[#001e80] text-center">
             A more effective to
-            <span className="font-bold text-5xl text-black tracking-tight text-center bg-gradient-to-b from-black to-[#001e80] text-transparent bg-clip-text">
+            <span className="font-bold text-4xl text-black tracking-tight text-center bg-gradient-to-b from-black to-[#001e80] text-transparent bg-clip-text">
               track progress
             </span>
           </div>
@@ -52,7 +52,7 @@ const Services = () => {
             ref={targetRef}
             src={pyramid}
             alt="pyramid"
-            className="absolute right-0 z-10 hidden md:block"
+            className="absolute -right-24 z-10 hidden md:block"
             width={300}
             height={300}
             style={{ y: moveWhileScroll }}
@@ -64,7 +64,7 @@ const Services = () => {
             alt="productImage"
             width={1200}
             style={{ opacity: opacity, rotateX: rotateX }}
-            className="z-50 mx-auto"
+            className="z-50 mx-auto w-[21rem] md:w-max"
           />
           <motion.img
             ref={targetRef}
@@ -74,10 +74,10 @@ const Services = () => {
             height={300}
             style={{ y: moveWhileScroll }}
             initial={{ y: 0 }}
-            className="absolute -left-[3rem] -bottom-36 z-10 hidden md:block"
+            className="absolute -left-[5rem] -bottom-36 z-10 hidden md:block"
           />
         </div>
-        <div className="flex items-center justify-center flex-wrap gap-8 sm:flex-col md:flex-row">
+        <div className="flex items-center justify-center flex-wrap gap-8 flex-col md:flex-row">
           <Benefits
             icon={<PiLeaf size={26} />}
             title="Integration ecosystem"

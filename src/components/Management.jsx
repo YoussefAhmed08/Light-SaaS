@@ -13,9 +13,9 @@ const Management = () => {
           <span className="border border-slate-400 rounded-lg px-3 py-1 text-sm tracking-tight w-[10rem] text-center">
             Everything you need
           </span>
-          <div className="font-bold text-5xl text-black tracking-tight text-center px-1">
+          <div className="font-bold text-4xl text-black tracking-tight text-center px-1">
             Streamlined for easy
-            <p className="font-bold text-5xl text-black tracking-tight text-center text-transparent bg-clip-text bg-gradient-to-b from-black to-[#001e80]">
+            <p className="font-bold text-4xl text-black tracking-tight text-center text-transparent bg-clip-text bg-gradient-to-b from-black to-[#001e80]">
               management
             </p>
           </div>
